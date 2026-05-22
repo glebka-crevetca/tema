@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: max-content;
+  overflow-x: hidden;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Rome";
+  src: url("../fonts/ST ROME/STRomeTrial-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/BookmanCTT/ofont.ru_BookmanCTT (1).ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir Next Cyr/avenirnextcyr-demi.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir Next Cyr/avenirnextcyr-medium.ttf") format("truetype");
+  font-weight: 450;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cattedrale";
+  src: url("../fonts/Cattedrale/Cattedrale[RUSbyPenka220]-Sliced_0.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Wolga";
+  src: url("../fonts/Wolgadeutsche/Wolgadeutsche.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hel";
+  src: url("../fonts/Hel Grotesk Gothic SHA/HelBla_Cyr.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arthur";
+  src: url("../fonts//Arthur Gothic/ofont.ru_Arthur Gothic (1).ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+menu {
+    position: fixed;
+    overflow: hidden;
+    top: 30px;
+    right: 30px;
+    z-index: 1000;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.menu_fon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    filter: blur(15px);
+    top: 0;
+    z-index: 1001;
+}
+menu nav {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    z-index: 1111;
+}
+menu button {
+    background-color: rgba(78, 0, 85, 1);
+    height: 60px;
+    width: 60px;
+    border-radius: 10px
+}
+.left {
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+    padding-right: 5px;
+    background-color: unset;
+}
+.right {
+    width: 50px;
+    padding-left: 5px;
+    border-radius: 0 10px 10px 0;
+    background-color: unset;
+}
+menu div {
+    border-radius: 10px;
+    background-color: rgba(78, 0, 85, 1);
+}
