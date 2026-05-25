@@ -17,7 +17,8 @@ header p {
   font-family: 'Avenir', Sans-Serif;
   margin-top: 20px;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
+  max-width: 1067px;
   color: #ffffff;
 }
 header button {
@@ -47,7 +48,7 @@ h2 {
 .palette_h2,
 .fonts_h2,
 .films_h2 {
-  padding: 5.5vw 0;
+  padding: 70px 0;
   display: grid;
   justify-content: center;
 }
@@ -123,7 +124,7 @@ h2 {
 }
 
 .btn_more {
-  padding: 5px 28px;
+  padding: 5px 29px;
   background-color: rgba(78, 0, 85, 1);
   border-radius: 10px;
   font-family: "Manrope", Sans-Serif;
@@ -315,7 +316,7 @@ h3 {
   background-color: #4e0055;
   border-radius: 0 0 10px 10px;
   margin-left: calc(98% - 12vw);
-  padding: 12px 26px;
+  padding: 6px 28px;
 }
 .download a {
   font-family: "Manrope", Sans-Serif;
@@ -362,6 +363,9 @@ h4 {
   font-weight: 450;
   color: #ffffff;
   margin-bottom: 24px;
+}
+.film_text {
+  max-width: 602px;
 }
 .film_text p {
   font-family: "Avenir", Sans-Serif;

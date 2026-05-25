@@ -27,6 +27,7 @@ aside {
 html,
 body {
   height: max-content;
+  background-color: #000000;
   overflow-x: hidden;
   width: 100%;
   font-size: 100%;
@@ -153,7 +154,46 @@ h6 {
 
 @font-face {
   font-family: "Arthur";
-  src: url("../fonts//Arthur Gothic/ofont.ru_Arthur Gothic (1).ttf") format("truetype");
+  src: url("../fonts/Arthur Gothic/ofont.ru_Arthur Gothic (1).ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Romantica";
+  src: url("../fonts/Romantica Antiqua/Romantica Antiqua.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eterna";
+  src: url("../fonts/Eterna Oldstyle/Eterna Oldstyle.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "One";
+  src: url("../fonts/Europeana/Europeana One.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Two";
+  src: url("../fonts/Europeana/Europeana Two .ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Margg";
+  src: url("../fonts/Marggraff Kursiv Zarte/Marggraff Kursiv Zarte.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -162,8 +202,8 @@ h6 {
 menu {
     position: fixed;
     overflow: hidden;
-    top: 30px;
-    right: 30px;
+    top: 20px;
+    right: 20px;
     z-index: 1000;
     padding: 5px 10px;
     border-radius: 10px;
@@ -186,9 +226,13 @@ menu nav {
 }
 menu button {
     background-color: rgba(78, 0, 85, 1);
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border-radius: 10px
+}
+.home img {
+  width: 36px;
+  height: 36px;
 }
 .left {
     width: 50px;
