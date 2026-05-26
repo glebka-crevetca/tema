@@ -285,9 +285,9 @@ h3 {
 }
 .font_goth {
   width: 100%;
-  padding: 2.6vw 8.41vw;
+  padding: 2.6vw 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #ffffff;
   border: 5px solid #4e0055;
   border-radius: 10px;
