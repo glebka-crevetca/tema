@@ -36,6 +36,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 input,
 button,
@@ -79,6 +80,21 @@ h6 {
   font-family: "Rome";
   src: url("../fonts/ST ROME/STRomeTrial-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rome";
+  src: url("../fonts/ST ROME/STRomeTrial-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "VCR";
+  src: url("../fonts/vcrosdmonorusbyd.ttf") format("truetype");
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }

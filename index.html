@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>В поисках стиля</title>
+    <link rel="stylesheet" href="styles/null.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <menu>
+      <nav>
+        <ul>
+          <li><a href="#pages">СТИЛИ</a></li>
+          <li><a href="#">РЕФЕРЕНСЫ</a></li>
+          <li><a href="#fonts">ШРИФТЫ</a></li>
+          <li><a href="#">ПАЛИТРЫ</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Поиск..."
+            autocomplete="off"
+          />
+          <button id="searchBtn">
+            <img src="img/main_page/main_screen/Lupa.svg" alt="Поиск" />
+          </button>
+        </div>
+        <ul id="suggestions" class="suggestions-list"></ul>
+      </div>
+    </menu>
+
+    <header>
+      <div>
+        <p class="header_p1">В ПОИСКАХ</p>
+        <p class="header_p2">СТИЛЯ</p>
+      </div>
+    </header>
+
+    <section class="pages" id="pages">
+      <div class="slider-container">
+        <div class="slider-wrapper">
+          <!-- Слайд 1: Пиксель арт -->
+          <div class="slide pixelArt">
+            <h2>ПИКСЕЛЬ<br />АРТ</h2>
+            <p>
+              Пиксель-арт — это направление цифровой графики, где изображения
+              создаются вручную на уровне отдельных пикселей. Художник
+              кропотливо прорисовывает каждый квадрат, из-за чего готовая
+              картинка напоминает мозаику, вышивку крестиком или стиль
+              классических 8-битных видеоигр.
+            </p>
+            <button>Подробнее</button>
+          </div>
+          <!-- Слайд 2: Готика -->
+          <div class="slide goth">
+            <h2>ГОТИКА</h2>
+            <p>
+              Готический художественный стиль — это направление в европейском
+              искусстве (преимущественно архитектуре, живописи и скульптуре)
+              средних веков, которое зародилось в середине XII века и
+              доминировало до XV–XVI веков. Этот стиль характеризуется особой
+              мрачной эстетикой, устремленностью ввысь, причудливостью форм и
+              тесной связью с религиозными и мистическими темами.
+            </p>
+            <button><a href="goth.html">Подробнее</a></button>
+          </div>
+          <!-- Слайд 3: Нуар -->
+          <div class="slide noir">
+            <div>
+              <h2>НУАР</h2>
+              <p>
+                Визуальный стиль нуар — это эстетика мрачных криминальных драм,
+                зародившаяся в американском кино 1940-х годов. Для него
+                характерен глубокий пессимизм, а главными инструментами
+                выразительности выступают резкие контрасты света и тени,
+                нагнетающие атмосферу недоверия и одиночества.
+              </p>
+            </div>
+            <img src="img/noir/main_screen/main.jpg" alt="" />
+            <button><a href="noir.html">Подробнее</a></button>
+          </div>
+        </div>
+      </div>
+
+      <button class="slider-btn prev-btn">
+        <img src="img/main_page/leftBtn.svg" alt="Назад" />
+      </button>
+      <button class="slider-btn next-btn">
+        <img src="img/main_page/rightBtn.svg" alt="Вперёд" />
+      </button>
+    </section>
+
+    <section class="fonts" id="fonts">
+      <div class="slider-container fonts-slider">
+        <div class="slider-wrapper fonts-wrapper">
+          <div class="slide fonts-slide">
+            <div class="fonts_fonts">
+              <div class="font_1">
+                <h3>Hel Grotesk Gothiq SHA</h3>
+                <div class="font_goth">
+                  <p>GOTHIC</p>
+                  <p>ГОТИКА</p>
+                </div>
+                <button class="download">
+                  <a
+                    href="fonts/Hel Grotesk Gothic SHA.zip"
+                    download="Hel Grotesk Gothic SHA.zip"
+                    >Скачать</a
+                  >
+                </button>
+              </div>
+              <div class="font_2">
+                <h3>Arthur Gothic</h3>
+                <div class="font_goth">
+                  <p>GOTHIC</p>
+                  <p>ГОТИКА</p>
+                </div>
+                <button class="download">
+                  <a href="fonts/Arthur Gothic.zip" download="Arthur Gothic.zip"
+                    >Скачать</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="slide fonts-slide">
+            <div class="fonts_fonts2">
+              <div class="font_1">
+                <h3>Europeana One</h3>
+                <div class="font_goth">
+                  <p>NOIR</p>
+                  <p>НУАР</p>
+                </div>
+                <button class="download">
+                  <a href="fonts/Europeana.zip" download="Europeana.zip"
+                    >Скачать</a
+                  >
+                </button>
+              </div>
+              <div class="font_2">
+                <h3>Europeana Two</h3>
+                <div class="font_goth">
+                  <p>NOIR</p>
+                  <p>НУАР</p>
+                </div>
+                <button class="download">
+                  <a href="fonts/Europeana.zip" download="Europeana.zip"
+                    >Скачать</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="slider-btn fonts-prev">
+        <img src="img/main_page/leftBtn.svg" alt="Назад" />
+      </button>
+      <button class="slider-btn fonts-next">
+        <img src="img/main_page/rightBtn.svg" alt="Вперёд" />
+      </button>
+    </section>
+
+    <script src="scripts/search.js"></script>
+    <script src="scripts/slider1.js"></script>
+    <script src="scripts/slider2.js"></script>
+  </body>
+</html>
